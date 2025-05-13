@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JavaScript Event Playground</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>JavaScript Fun Zone</h1>
+
+  <!-- Button -->
+  <button id="colorButton">Click me to change color!</button>
+
+  <!-- Image Gallery -->
+  <div id="gallery">
+    <img id="galleryImage" src="./pexels-yesimcolak-32019319.jpg" alt="Gallery Image" />
+    <button id="nextImage">Next Image</button>
+  </div>
+
+  <!-- Accordion -->
+  <div class="accordion">
+    <button class="accordion-btn">Toggle Content</button>
+    <div class="accordion-content">This is some hidden content!</div>
+  </div>
+
+  <!-- Form -->
+  <form id="signupForm">
+    <input type="text" id="name" placeholder="Name" required />
+    <input type="email" id="email" placeholder="Email" required />
+    <input type="password" id="password" placeholder="Password (min 8 chars)" required />
+    <button type="submit">Submit</button>
+  </form>
+
+  <!-- Output for keypress -->
+  <p id="keyOutput">Press any key...</p>
+
+  <script src="script.js"></script>
+</body>
+</html>

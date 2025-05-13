@@ -1,0 +1,26 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
+  .accordion-content {
+    display: none;
+    background: #dbeafe;
+    padding: 10px;
+    border: 1px solid #60a5fa;
+    margin-top: 5px;
+  }
+  
+  img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
